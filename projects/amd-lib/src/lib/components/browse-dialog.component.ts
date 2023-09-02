@@ -3,9 +3,8 @@ import { MatDialogRef, MAT_DIALOG_DATA } from "@angular/material/dialog";
 import { DatatransferFacade } from "../facades/datatransfer.facade";
 
 @Component({
-  // tslint:disable-next-line:component-selector
   selector: "amd-browse-dialog",
-  templateUrl: "browse-dialog.component.html",
+  templateUrl: "./browse-dialog.component.html",
 })
 export class BrowseDialogComponent implements AfterViewInit {
   datatransferFacade: DatatransferFacade;

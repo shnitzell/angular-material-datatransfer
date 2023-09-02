@@ -14,8 +14,6 @@ import { MatProgressSpinnerModule } from "@angular/material/progress-spinner";
 import { MatSelectModule } from "@angular/material/select";
 import { MatTooltipModule } from "@angular/material/tooltip";
 
-import { FlexLayoutModule } from "@angular/flex-layout";
-
 import { AngularMaterialDatatransferComponent } from "./angular-material-datatransfer.component";
 import { MainComponent } from "./components/main.component";
 import { BrowseDialogComponent } from "./components/browse-dialog.component";
@@ -68,7 +66,6 @@ import { HostDirective } from "./directives/host.directive";
     MatProgressSpinnerModule,
     MatSelectModule,
     MatTooltipModule,
-    FlexLayoutModule,
   ],
   exports: [AngularMaterialDatatransferComponent],
   entryComponents: [MainComponent, BrowseDialogComponent, EditDialogComponent],

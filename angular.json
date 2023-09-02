@@ -75,9 +75,7 @@
                 "inject": true
               }
             ],
-            "scripts": [
-              "node_modules/spark-md5/spark-md5.min.js"
-            ]
+            "scripts": ["node_modules/spark-md5/spark-md5.min.js"]
           },
           "configurations": {
             "production": {
